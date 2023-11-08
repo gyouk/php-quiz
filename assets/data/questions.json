@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Що означає абревіатура PHP?",
+    "answers": [
+      "Public Hosting Platform",
+      "Preformatted Hypertext Processor",
+      "PHP: Hypertext Preprocessor",
+      "Private Home Page"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question": "Як створити зміну name в PHP?",
+    "answers": [
+      "$name",
+      "let name",
+      "variable name",
+      "?name"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "question": "Яка з наведених нижче функцій використовується для виведення тексту на екран у PHP?",
+    "answers": [
+      "display",
+      "echo",
+      "write",
+      "output"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question": "Який оператор використовується для виконання умовних операцій у PHP?",
+    "answers": [
+      "for",
+      "foreach",
+      "loop",
+      "if"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "question": "Які з наступних функцій використовуються для з'єднання з базою даних PHP?",
+    "answers": [
+      "mysqli_connect",
+      "connect_to_db",
+      "db_open",
+      "db_connection"
+    ],
+    "correct_answer": 0
+  },
+  {
+    "question": "Що означає абревіатура PDO?",
+    "answers": [
+      "PHP Database Object",
+      "Personal Data Organizer",
+      "PHP Data Objects",
+      "Public Database Operator"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "question": "Який символ використовується для початку однорядкового коментаря в PHP?",
+    "answers": [
+      "/*",
+      "//",
+      "--",
+      "^^"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "question": "Яким чином ви підключаєте файл з кодом PHP до іншого файлу?",
+    "answers": [
+      "include 'file.php'",
+      "import 'file.php'",
+      "link 'file.php'",
+      "load 'file.php'"
+    ],
+    "correct_answer": 0
+  }
+]
