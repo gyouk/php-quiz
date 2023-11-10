@@ -129,5 +129,7 @@ environment:
 
 
 # How to using this functionality #
-1. Please, going to [localhost](http://localhost)
-2. After you can start quiz.
+1. Clone repo git clone git@github.com:gyouk/php-quiz.git
+2. Create container docker-compose up -d
+3. Please, going to [localhost](http://localhost)
+4. After you can start quiz.
