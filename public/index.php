@@ -3,7 +3,7 @@ require('../includes/header.php');
 ?>
 <form method="POST" action="result.php">
 
-    <input type="text" name="name" placeholder="Введіть ваше ім’я" required>
+    <input type="text" name="name" placeholder="<?php echo htmlspecialchars('Введіть ваше ім’я', ENT_QUOTES, 'UTF-8'); ?>" required>
     <br>
 	<?php
 	if (isset($questions_and_answers)) {

@@ -5,7 +5,10 @@ require_once('../includes/header.php');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$name = $_POST['name'];
 	$answers = $_POST['answers'] ?? [];
+	if (!preg_match('/^[A-Za-z0-9\s\-]+$/', $name)) {
 
+		$name = 'Invalid Name';
+	}
 	// The logic of calculating the result.
 	$total = count($answers);
 	$correct = 0;

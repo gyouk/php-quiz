@@ -15,7 +15,7 @@ $result = $db->query($query);
                 </tr>
                 <?php while ($row = $result->fetch(PDO::FETCH_ASSOC)): ?>
                     <tr>
-                        <td><?= $row['name'] ?></td>
+                        <td><?= strip_tags($row['name'] )?></td>
                         <td><?= $row['total'] ?></td>
                         <td><?= $row['correct'] ?></td>
                         <td><?= $row['incorrect'] ?></td>
